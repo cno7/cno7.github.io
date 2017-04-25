@@ -3,9 +3,7 @@ body {
 }
 .divMe {
     width: 20%;
-    border-right: 1px solid black;
     text-align: center;
-
 }
 .divButtonLinks {
     position: fixed;
@@ -17,7 +15,6 @@ body {
 .bigBtnLinks {
     width: 350px;
     height: 150px;
-
 }
 .footer {
     position: fixed;
