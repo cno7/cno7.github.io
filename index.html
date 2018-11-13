@@ -1,23 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Christoffer Olsen</title>
+        <meta name="description" content="Christoffer Olsen's digital portfolio.">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="indexstyle.css" />
     </head>
-    <body>
-      <div class="bgimg">
-        <div class="topleft">
-          <p>Christoffer Olsen</p>
+    <body class="backgroundImage">
+        <!-- The code for this navbar is very much inspired by this post, example 2: "https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items" "https://www.codeply.com/go/0xSGj0EsAu"  -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link naviLeft" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link naviLeft" href="#work">Work</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+                <a class="mx-auto" href="#">
+                    <img src="images/logo_03.svg" alt="logo" class="logo" width="100px" height="100px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link naviRight" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link naviRight" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of nav -->
+        <div class="container red">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="images/intro_logo_01.png" alt="logo" width="100%" height="41%">
+                </div>
+            </div>
         </div>
-        <div class="middle">
-          <h1>COMING SOON</h1>
-          <hr>
-          <p>I wouldn't hold my breath ...</p>
+        <div class="container">
+            <div class="row mainContent" id="about">
+                <div class="col ">
+                    <p>I'm Christoffer Olsen. I am a Developer and Web Designer who can help you with almost any exciting project in the world of computers.</p>
+                </div>
+            </div>
         </div>
-        <div class="bottomleft">
-          <a href="http://google.com/">Try google instead. The code for this "coming soon" page was borrowed from w3schools</a>
+        <div class="container">
+            <div class="row mainContent">
+                <div class="col">
+                    <img src="images/about_logo_01.png" alt="aboutme" width="100%">
+                    <!-- An image with the text "About Me". Centered with some doodles around. -->
+                </div>
+            </div>
+            <div class="row mainContent">
+                <div class="col-4">
+                    An awesome image of me! Maybe a fancy border on it.
+                    <img src="" alt="">
+                </div>
+                <div class="col-8">
+                    <p>I am currently studying Computer Engineering in the town of Halden, Norway. An early interest in computers and technology have made me quite skillful in several programming languages.</p>
+                </div>
+            </div>
         </div>
-      </div>
-   </body>
+        <div class="container">
+            <div class="row mainContent">
+                <div class="col">
+                    <h2 id="work">Work</h2>
+                </div>
+            </div>
+            <div class="row mainContent">
+                <div class="col workBg">
+                    <h3>This website</h3>
+                    <p>I make websites, such as the one you are looking at right now. My skills in HTML, JavaScript, CSS are close to professional. I'm also familiar with frameworks such as Bootstrap.</p>
+                </div>
+                <div class="col workBg">
+                    <h3>Logos</h3>
+                    <p>My designing skills are about average at the moment, but I am still learning! I can design simple logos for you using various Adobe software.</p>
+                </div>
+                <div class="col workBg">
+                    <h3>Bachelor Project</h3>
+                    <p>Something with picture analyzing, machine learning and good old engineering.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mainContent">
+                <div class="col ">
+                    <h2 id="contact">Contact</h2>
+                    <p>I got E-mail, GitHub, LinkedIn, FaceBook and Instagram. Hit me up on one of those!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mainContent">
+                <div class="col ">
+                    <h2 id="projects">Projects</h2>
+                    <p>Future awesome projects are coming here!</p>
+                </div>
+            </div>
+            <div class="row mainContent">
+                <div class="col workBg">
+                    <h3>Code Base</h3>
+                    <p>My collection of very useful pieces of code. Sorted by language.</p>
+                </div>
+                <div class="col workBg">
+                    <h3>Chriss The Viking</h3>
+                    <p>I do play games. And this is the website I made for my gaming personality. Drop by for hillarious clips, play throughs +++ Includes links to the YouTube channel, social media and more.</p>
+                </div>
+                <div class="col workBg">
+                    <h3>Photography</h3>
+                    <p>My photography portfolio.</p>
+                </div>
+            </div>
+            <div class="row mainContent">
+                <div class="col workBg">
+                    <h3>Mini Projects: JavaScript</h3>
+                    <p>Collection of small JavaScript projects.</p>
+                </div>
+                <div class="col workBg">
+                    <h3>Mini Projects: C#</h3>
+                    <p>Collection of small C# projects.</p>
+                </div>
+                <div class="col workBg">
+                    <h3>Mini Projects: Python</h3>
+                    <p>Collection of small Python projects.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mainContent">
+                <div class="col bottomText">
+                    Created by Christoffer Olsen ©
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
 </html>
